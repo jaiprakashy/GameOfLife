@@ -13,6 +13,10 @@
 		DA14041C26CF744E00750812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14041A26CF744E00750812 /* Main.storyboard */; };
 		DA14041E26CF745100750812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14041D26CF745100750812 /* Assets.xcassets */; };
 		DA14042126CF745100750812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14041F26CF745100750812 /* LaunchScreen.storyboard */; };
+		DA14042A26CF750E00750812 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14042926CF750E00750812 /* WorldView.swift */; };
+		DA14042D26CF752F00750812 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14042C26CF752F00750812 /* State.swift */; };
+		DA14043026CF754C00750812 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14042F26CF754C00750812 /* Cell.swift */; };
+		DA14043326CF763300750812 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14043226CF763300750812 /* World.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DA14041D26CF745100750812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA14042026CF745100750812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA14042226CF745100750812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA14042926CF750E00750812 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		DA14042C26CF752F00750812 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		DA14042F26CF754C00750812 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		DA14043226CF763300750812 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				DA14041D26CF745100750812 /* Assets.xcassets */,
 				DA14041F26CF745100750812 /* LaunchScreen.storyboard */,
 				DA14042226CF745100750812 /* Info.plist */,
+				DA14042926CF750E00750812 /* WorldView.swift */,
+				DA14042C26CF752F00750812 /* State.swift */,
+				DA14042F26CF754C00750812 /* Cell.swift */,
+				DA14043226CF763300750812 /* World.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA14041926CF744E00750812 /* ViewController.swift in Sources */,
+				DA14042A26CF750E00750812 /* WorldView.swift in Sources */,
 				DA14041526CF744E00750812 /* AppDelegate.swift in Sources */,
+				DA14042D26CF752F00750812 /* State.swift in Sources */,
 				DA14041726CF744E00750812 /* SceneDelegate.swift in Sources */,
+				DA14043326CF763300750812 /* World.swift in Sources */,
+				DA14043026CF754C00750812 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
